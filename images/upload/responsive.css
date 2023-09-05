@@ -1,0 +1,49 @@
+/* Extra Large devices */
+@media (min-width: 1200px) {
+}
+
+	/* Large devices */
+@media (max-width: 1199px) {
+}	
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+@media (min-width: 992px) {
+    .desktop_layout { display: inline-block; width: 100%; }
+    .tab_layout { display: none; width: 100%; }
+    .mobile_layout { display: none; width: 100%; }
+}
+
+	/* Medium devices */
+@media (max-width: 991px) {
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .desktop_layout { display: none; width: 100%; }
+    .tab_layout { display: inline-block; width: 100%; }
+    .mobile_layout { display: none; width: 100%; }
+}
+@media (min-width: 768px) {    
+    .medium_visiable { display: table-cell; }
+    .small_visible { display: none; }
+}
+
+	/* Small devices */
+@media (max-width: 767px) {
+    .desktop_layout { display: none; width: 100%; }
+    .tab_layout { display: none; width: 100%; }
+    .mobile_layout { display: inline-block; width: 100%; }
+
+    .medium_visiable { display: none; }
+    .small_visible { display: inline-block; width: 100%; }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+@media (min-width: 576px) {
+}
+
+	/* Extra small devices */
+@media (max-width: 575px) {
+    .pricelist_table thead tr td, .pricelist_table tr td, .strike { padding: 2px !important; font-size: 12px !important; }
+    .product_image img { max-width: 20px; max-height: 20px; cursor: pointer; }
+}
